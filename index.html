@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=7&ctz=America%2FArgentina%2FCordoba&bgcolor=%23ffffff&mode=AGENDA&src=YmVkYWRlN2I3ZWFmN2FiYTI1MDNhOWQ5ZTRjYThiOGMwZTEzYjg4ZGVkZjU4MTdiNDNmODYyOTM4YjY0MDVhNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendario iglesia de Rafaela Centro</title>
+    <link rel="icon" href="iasd.jpg" type="image/x-icon" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .calendar-container {
+      border: solid 1px #777;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 90vw;
+      height: 70vh;
+    }
+  </style>
+  <body>
+    <h1>Agenda Rafaela Centro</h1>
+    <div class="calendar-container">
+      <iframe
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=7&ctz=America%2FArgentina%2FCordoba&bgcolor=%23ffffff&mode=AGENDA&src=YmVkYWRlN2I3ZWFmN2FiYTI1MDNhOWQ5ZTRjYThiOGMwZTEzYjg4ZGVkZjU4MTdiNDNmODYyOTM4YjY0MDVhNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E"
+        style="border: solid 1px #777"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+    </div>
+  </body>
 </html>
